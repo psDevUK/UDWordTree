@@ -30,7 +30,7 @@ Start-UDDashboard -Port 1000 -AutoReload -Dashboard (
         New-UDRow -Columns {
             New-UDColumn -Size 12 -Content {
                 New-UDWordTree -Id "WORDTREE"-width "100%" -height "400px" -data {
-                    $b = @( @("Phrases"),
+                    $words = @( @("Phrases"),
                         @("UniversalDashboard is Powershell most popular web framework"),
                         @("Powershell UniversalDashboard works on all platforms"),
                         @("Powershell UniversalDashboard is awesome"),
@@ -46,7 +46,7 @@ Start-UDDashboard -Port 1000 -AutoReload -Dashboard (
                         @("Powershell UniversalDashboard has a forum"),
                         @("Powershell UniversalDashboard has a marketplace")
                     )
-                    $b
+                    $words
                 } -word "UniversalDashboard"
             }
 
