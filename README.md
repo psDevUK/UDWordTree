@@ -3,11 +3,13 @@ google chart wordtree for universaldashboard based on https://github.com/rakanni
 
 ## Parameters
 
-  There are only two parameters when it comes to this component, and only one of them is mandatory which is the data parameter,
+  There are only four parameters when it comes to this component, and only one of them is mandatory which is the data parameter,
   as without this parameter there would be nothing to display
 The **-data** parameter needs to be passed as separate arrays, you may wish to design a helper function to prepare this data.
 The **-word** parameter focuses on a particular word in the list of arrays you have passed it.  This does effect the display
 of the wordtree chart
+The **-width** and **-height** parameters are strings and accept values like 400px or 100%
+
 
 ## Demo
 
