@@ -60,6 +60,8 @@ Start-UDDashboard -Port 1000 -AutoReload -Dashboard (
   
   ## Improved Demo from text file with search capabilities
   
+  The ud.txt file used in this example is availble on this repository, massive thanks to Augustin Ziegler for providing the solution for reading the data from a text file....I am sure this would also work from a variable, but I was using a .txt for my purposes. This is the exact script that is being used for the .GIF icon and which is also located on this repository 
+  
   ```
   Import-Module -Name universaldashboard.community -RequiredVersion 2.8.1
 Import-Module -Name UniversalDashboard.UDWordTree
